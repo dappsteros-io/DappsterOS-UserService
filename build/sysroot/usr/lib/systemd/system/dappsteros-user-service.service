@@ -1,0 +1,13 @@
+[Unit]
+After=dappsteros-message-bus.service
+Description=DappsterOS User Service
+
+[Service]
+ExecStartPre=/usr/bin/dappsteros-user-service -v
+ExecStart=/usr/bin/dappsteros-user-service -c /etc/dappsteros/user-service.conf
+PIDFile=/var/run/dappsteros/user-service.pid
+Restart=always
+Type=notify
+
+[Install]
+WantedBy=multi-user.target

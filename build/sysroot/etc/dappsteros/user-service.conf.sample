@@ -1,0 +1,9 @@
+[common]
+RuntimePath=/var/run/dappsteros
+
+[app]
+LogPath = /var/log/dappsteros
+LogSaveName = user-service
+LogFileExt = log
+DBPath     = /var/lib/dappsteros/db
+UserDataPath = /var/lib/dappsteros
