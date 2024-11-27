@@ -6,7 +6,7 @@ toolchain go1.22.2
 
 require (
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf
-	github.com/dappster-io/DappsterOS-Common v0.4.9-alpha11
+	github.com/dappster-io/DappsterOS-Common v0.4.9-alpha12
 	github.com/deepmap/oapi-codegen v1.12.4
 	github.com/getkin/kin-openapi v0.117.0
 	github.com/glebarez/sqlite v1.8.0
