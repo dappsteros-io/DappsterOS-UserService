@@ -12,10 +12,10 @@ package sqlite
 import (
 	"time"
 
-	"github.com/dappster-io/DappsterOS-Common/utils/logger"
-	"github.com/dappster-io/DappsterOS-UserService/model"
-	"github.com/dappster-io/DappsterOS-UserService/pkg/utils/file"
-	model2 "github.com/dappster-io/DappsterOS-UserService/service/model"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/logger"
+	"github.com/dappsteros-io/DappsterOS-UserService/model"
+	"github.com/dappsteros-io/DappsterOS-UserService/pkg/utils/file"
+	model2 "github.com/dappsteros-io/DappsterOS-UserService/service/model"
 	"github.com/glebarez/sqlite"
 	"go.uber.org/zap"
 	"gorm.io/gorm"

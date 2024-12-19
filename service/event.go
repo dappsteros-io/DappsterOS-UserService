@@ -3,7 +3,7 @@ package service
 import (
 	"encoding/json"
 
-	"github.com/dappster-io/DappsterOS-UserService/model"
+	"github.com/dappsteros-io/DappsterOS-UserService/model"
 	"gorm.io/gorm"
 )
 

@@ -1,5 +1,5 @@
 //go:generate bash -c "mkdir -p codegen/user_service && go run github.com/deepmap/oapi-codegen/cmd/oapi-codegen@v1.12.4 -generate types,server,spec -package codegen api/user-service/openapi.yaml > codegen/user_service/user_service_api.go"
-//go:generate bash -c "mkdir -p codegen/message_bus && go run github.com/deepmap/oapi-codegen/cmd/oapi-codegen@v1.12.4 -package message_bus https://raw.githubusercontent.com/dappster-io/DappsterOS-MessageBus/main/api/message_bus/openapi.yaml > codegen/message_bus/api.go"
+//go:generate bash -c "mkdir -p codegen/message_bus && go run github.com/deepmap/oapi-codegen/cmd/oapi-codegen@v1.12.4 -package message_bus https://raw.githubusercontent.com/dappsteros-io/DappsterOS-MessageBus/main/api/message_bus/openapi.yaml > codegen/message_bus/api.go"
 package main
 
 import (
@@ -15,19 +15,19 @@ import (
 	"time"
 
 	"github.com/coreos/go-systemd/daemon"
-	"github.com/dappster-io/DappsterOS-Common/external"
-	"github.com/dappster-io/DappsterOS-Common/model"
-	util_http "github.com/dappster-io/DappsterOS-Common/utils/http"
-	"github.com/dappster-io/DappsterOS-Common/utils/jwt"
-	"github.com/dappster-io/DappsterOS-Common/utils/logger"
-	"github.com/dappster-io/DappsterOS-UserService/codegen/message_bus"
-	"github.com/dappster-io/DappsterOS-UserService/common"
-	"github.com/dappster-io/DappsterOS-UserService/pkg/config"
-	"github.com/dappster-io/DappsterOS-UserService/pkg/sqlite"
-	"github.com/dappster-io/DappsterOS-UserService/pkg/utils/encryption"
-	"github.com/dappster-io/DappsterOS-UserService/pkg/utils/random"
-	"github.com/dappster-io/DappsterOS-UserService/route"
-	"github.com/dappster-io/DappsterOS-UserService/service"
+	"github.com/dappsteros-io/DappsterOS-Common/external"
+	"github.com/dappsteros-io/DappsterOS-Common/model"
+	util_http "github.com/dappsteros-io/DappsterOS-Common/utils/http"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/jwt"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/logger"
+	"github.com/dappsteros-io/DappsterOS-UserService/codegen/message_bus"
+	"github.com/dappsteros-io/DappsterOS-UserService/common"
+	"github.com/dappsteros-io/DappsterOS-UserService/pkg/config"
+	"github.com/dappsteros-io/DappsterOS-UserService/pkg/sqlite"
+	"github.com/dappsteros-io/DappsterOS-UserService/pkg/utils/encryption"
+	"github.com/dappsteros-io/DappsterOS-UserService/pkg/utils/random"
+	"github.com/dappsteros-io/DappsterOS-UserService/route"
+	"github.com/dappsteros-io/DappsterOS-UserService/service"
 	"go.uber.org/zap"
 )
 

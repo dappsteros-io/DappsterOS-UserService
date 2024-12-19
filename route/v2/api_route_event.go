@@ -3,8 +3,8 @@ package v2
 import (
 	"net/http"
 
-	codegen "github.com/dappster-io/DappsterOS-UserService/codegen/user_service"
-	"github.com/dappster-io/DappsterOS-UserService/service"
+	codegen "github.com/dappsteros-io/DappsterOS-UserService/codegen/user_service"
+	"github.com/dappsteros-io/DappsterOS-UserService/service"
 	"github.com/labstack/echo/v4"
 )
 

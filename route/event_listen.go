@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dappster-io/DappsterOS-Common/external"
-	"github.com/dappster-io/DappsterOS-Common/utils/logger"
-	message_bus "github.com/dappster-io/DappsterOS-UserService/codegen/message_bus"
-	"github.com/dappster-io/DappsterOS-UserService/model"
-	"github.com/dappster-io/DappsterOS-UserService/pkg/config"
-	"github.com/dappster-io/DappsterOS-UserService/service"
+	"github.com/dappsteros-io/DappsterOS-Common/external"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/logger"
+	message_bus "github.com/dappsteros-io/DappsterOS-UserService/codegen/message_bus"
+	"github.com/dappsteros-io/DappsterOS-UserService/model"
+	"github.com/dappsteros-io/DappsterOS-UserService/pkg/config"
+	"github.com/dappsteros-io/DappsterOS-UserService/service"
 	"go.uber.org/zap"
 	"golang.org/x/net/websocket"
 )

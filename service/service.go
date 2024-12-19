@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/dappster-io/DappsterOS-Common/external"
-	"github.com/dappster-io/DappsterOS-UserService/codegen/message_bus"
-	"github.com/dappster-io/DappsterOS-UserService/pkg/config"
+	"github.com/dappsteros-io/DappsterOS-Common/external"
+	"github.com/dappsteros-io/DappsterOS-UserService/codegen/message_bus"
+	"github.com/dappsteros-io/DappsterOS-UserService/pkg/config"
 	"gorm.io/gorm"
 )
 

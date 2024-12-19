@@ -15,9 +15,9 @@ import (
 	"mime/multipart"
 	"os"
 
-	"github.com/dappster-io/DappsterOS-Common/utils/jwt"
-	"github.com/dappster-io/DappsterOS-Common/utils/logger"
-	"github.com/dappster-io/DappsterOS-UserService/service/model"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/jwt"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/logger"
+	"github.com/dappsteros-io/DappsterOS-UserService/service/model"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
 )

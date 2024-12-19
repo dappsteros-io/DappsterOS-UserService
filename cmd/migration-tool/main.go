@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	interfaces "github.com/dappster-io/DappsterOS-Common"
-	"github.com/dappster-io/DappsterOS-Common/utils/systemctl"
-	"github.com/dappster-io/DappsterOS-UserService/common"
+	interfaces "github.com/dappsteros-io/DappsterOS-Common"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/systemctl"
+	"github.com/dappsteros-io/DappsterOS-UserService/common"
 )
 
 const (

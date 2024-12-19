@@ -5,9 +5,9 @@ info:
   version: v2
   description: |
     <picture>
-         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dappster-io/logo/main/dappsteros/dappsteros_banner_dark_night_800px.png">
-         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dappster-io/logo/main/dappsteros/dappsteros_banner_twilight_blue_800px.png">
-         <img alt="DappsterOS" src="https://raw.githubusercontent.com/dappster-io/logo/main/dappsteros/dappsteros_banner_twilight_blue_800px.png">
+         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dappsteros-io/logo/main/dappsteros/dappsteros_banner_dark_night_800px.png">
+         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dappsteros-io/logo/main/dappsteros/dappsteros_banner_twilight_blue_800px.png">
+         <img alt="DappsterOS" src="https://raw.githubusercontent.com/dappsteros-io/logo/main/dappsteros/dappsteros_banner_twilight_blue_800px.png">
      </picture>
      This is the API for the DappsterOS User Service.
      It is used to manage users and their access to DappsterOS services.

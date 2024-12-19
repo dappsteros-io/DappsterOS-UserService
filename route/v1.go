@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/dappster-io/DappsterOS-Common/utils/jwt"
-	v1 "github.com/dappster-io/DappsterOS-UserService/route/v1"
-	"github.com/dappster-io/DappsterOS-UserService/service"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/jwt"
+	v1 "github.com/dappsteros-io/DappsterOS-UserService/route/v1"
+	"github.com/dappsteros-io/DappsterOS-UserService/service"
 	"github.com/labstack/echo/v4"
 	echo_middleware "github.com/labstack/echo/v4/middleware"
 )

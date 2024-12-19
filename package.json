@@ -9,7 +9,7 @@
     "publish": "npm publish --access public",
     "start": "yarn generate:ts && yarn build"
   },
-  "homepage": "https://github.com/dappster-io/DappsterOS-UserService#readme",
+  "homepage": "https://github.com/dappsteros-io/DappsterOS-UserService#readme",
   "description": "DappsterOS-Localstorage Typescript+Axios SDK",
   "keywords": [
     "DappsterOS-UserService",
